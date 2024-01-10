@@ -1,0 +1,1 @@
+My goal with this project is to create a dashboard that you can easily view your location's weather 

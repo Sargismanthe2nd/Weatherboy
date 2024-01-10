@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+    <div class="weatherGrid">
+        <div class="topBar">
+            <div id="headerContainer">
+                <!-- to keep the animation contained to its position :D-->
+                <h1 id="weatherBoy">Weather Boy</h1>
+            </div>
+        </div>
+        <div id="searchHistory">
+            <h2 id="search-history-header">Previous forecasts:</h1>
+        </div>
+
+
+        <form id="coordinateForm">
+            <h2>Search for a city:</h2>
+            <div id="formContainer">
+                <div class="formGroup">
+                    <label for="cityName">*City:</label>
+                    <input type="text" id="cityName" required>
+                </div>
+    
+                <div class="formGroup">
+                    <label for="stateCode">State:</label>
+                    <input type="text" id="stateCode">
+                </div>
+    
+                <div class="formGroup">
+                    <label for="countryCode">*Country:</label>
+                    <input type="text" id="countryCode" required>
+                </div>
+    
+                <button type="submit" id="submitButton">Forecast!</button>
+            </div>
+        </form>
+        <div id="currentCityWeather">
+            <div id="howsIt">
+                <h2>How's the weather in...</h2>
+
+            </div>
+            <div id="usersCity">
+                <p id="weatherData"></p>
+
+            </div>
+        </div>
+        <div id="weeklyForecast">
+            <p id="weeklyData">hi</p>
+        </div>
+
+
+
+
+
+        <script src="./script.js"></script>
+</body>
+
+</html>
