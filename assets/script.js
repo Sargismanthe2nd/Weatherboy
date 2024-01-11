@@ -17,7 +17,7 @@ document.getElementById("coordinateForm").addEventListener("submit", function (e
 });
 
 function getCoordinates(cityName, stateCode, countryCode) {
-    const url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName},${stateCode},${countryCode}&limit=1&appid=${APIKEY}`;
+    const url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName},${stateCode},${countryCode}&limit=1&appid=${APIKEY}`;
     fetch(url)
         .then(response => response.json())
         .then(data => {
