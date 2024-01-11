@@ -11,3 +11,7 @@
 
 
 ![Web Demo](image.png)
+
+https://sargismanthe2nd.github.io/Weatherboy/
+
+https://github.com/Sargismanthe2nd/Weatherboy
